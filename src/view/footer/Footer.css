@@ -1,0 +1,42 @@
+/* Footer Container */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Footer Links */
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  
+  .footer-item {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .footer-item:hover {
+    color: #ccc;
+  }
+  
+  /* Footer Copyright */
+  .footer-copyright {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  /* Responsive Footer for Smaller Screens */
+  @media (max-width: 768px) {
+    .footer-item {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
